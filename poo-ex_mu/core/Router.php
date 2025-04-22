@@ -1,6 +1,5 @@
 <?php
-
-// OBSERVATIONS : Commentaires générées par Copilot 
+// OBSERVATION : Commentaires générées avec l'aide de Copilot // 
 
 class Router // classe liée à la gestion des requêtes HTTP et à la redirection vers les contrôleurs appropriés
 {

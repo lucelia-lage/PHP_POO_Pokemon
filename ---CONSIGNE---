@@ -1,0 +1,26 @@
+Projet Pokemon
+PHP POO
+
+Réalisez une application en utilisant la programmation orientée objet permettant de capturer
+des Pokémons.
+Pour cela, vous devrez créer une base de données et y stocker les informations suivantes :
+• Table Pokemon : id, name, isCaptured
+A vous de leur donner les bonnes contraintes.
+Vous verrez à chaque nouveau chargement de page un pokemon aléatoire apparaitre avec la
+possibilité de :
+- Le capturer
+- Le laisser tranquille (recharge simplement la page)
+
+Si vous le capturez, le Pokemon apparaitra comme capturé et sera relâchable via un bouton.
+
+Bonus : Pouvoir cliquer sur un pokemon pour se rendre sur sa page de détails
+
+Détails techniques
+Vous devrez respecter une architecture MVC
+
+Vous devrez lancer le serveur via le terminal de vscode grâce à la commande suivante :
+php -S localhost:8000 -t public
+Le site sera alors disponible à l’adresse localhost:8000. Ce sera à vous d’écrire la classe Router.php permettant de rediriger l’utilisateur vers le bon controller en fonction de l’url.
+Par exemple : la page /pokemon redirigerait vers le PokemonController, /login vers LoginController, / vers MainController
+Pensez à importer les vues à la fin de vos controller.
+Have fun !
